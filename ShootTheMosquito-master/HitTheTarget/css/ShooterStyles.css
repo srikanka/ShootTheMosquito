@@ -1,0 +1,64 @@
+body{
+    background-image: url(../img/grassland.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:100% 100vh;
+}
+#startBtn{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    left: auto;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #f20000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#startBtn:hover{
+    background: #15ff00;
+    text-decoration: none;
+}
+
+
+h3{
+    text-align: center;
+}
+
+#highScore{
+    position: absolute;
+}
+#highScore, h2{
+    text-align: center;
+}
+
+#highScoreTitle{
+    text-decoration: underline;
+}
+
+#currentScoreBox{
+    position: absolute;
+    text-align: center;
+    right: 0px;
+
+}
+
+#currentScoreTitle{
+    text-decoration: underline;
+}
+
+#image{
+    top: 150px;
+}
+
+#timer{
+    position: relative;
+    display: none;
+    text-align: center;
+}
+
+
+
